@@ -1,0 +1,30 @@
+web_app:
+  context_path: "turan"
+  mode: "dev"
+  host: "127.0.0.1"
+  port: 8081
+  start_time: "2020-07-01"
+  machineID: 1
+
+log:
+  level: "info"
+  fileName: "turan.log"
+  path: "./log/"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  dbname: "blubell"
+  user: "root"
+  password: "123456"
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: "123456"
+  db: 0
+  pool_size: 100
+

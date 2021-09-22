@@ -1,0 +1,11 @@
+info:
+  contact: {}
+paths:
+  /front/login:
+    post:
+      produces:
+      - application/json
+      summary: 用户登陆接口
+      tags:
+      - 登陆接口
+swagger: "2.0"
